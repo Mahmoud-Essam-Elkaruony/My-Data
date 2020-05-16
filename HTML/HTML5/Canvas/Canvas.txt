@@ -1,0 +1,10 @@
+
+What can you do with Canvas.....
+
+1-Interactive
+2-Animation
+3-Flexibility
+4-Support
+5-Web Standard
+6-Development
+
