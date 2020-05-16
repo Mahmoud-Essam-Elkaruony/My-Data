@@ -1,0 +1,5 @@
+textarea: a large text area field to write big messages
+fieldset: a container for multi fields
+legend: the title of the fieldset
+select: dropdown select field
+option: the option of the dropdown select

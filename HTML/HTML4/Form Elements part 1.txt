@@ -1,0 +1,6 @@
+?label: for describing the field
+Text: for adding text input
+Password: for adding password field
+Checkbox: for adding multi check field
+Submit: button to submit data from form
+

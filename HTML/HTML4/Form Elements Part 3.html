@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+    
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Html For Beginners ">
+        <title>Form part 3 Textarea,Fildset,Legend,Select,Option</title>
+        <link rel="stylesheet" href="style.css">
+        <script>
+            function sayHello()
+            {
+                alert("Hello HTML");
+            }
+        </script>
+        <style>
+            fieldset{background:#EFEFEF;padding:10px;border:1px solid#CCC;margin-bottom:20px}
+            
+            legend{background:#FFF;border:1px solid#CCC;padding:5px}
+
+        </style>
+    </head>
+    <body>
+        <form name="register">
+            
+            
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label>Username</label>
+                <input type="text" name="username" maxlength="10">
+                
+                <br>
+                    
+                <label>Password</label>
+                <input type="password" name="password">
+            </fieldset>
+          
+            <br>
+            
+            <fieldset>
+                <legend>Your Favourite</legend>
+                <label>Choose Your Browser</label><br>
+                
+                <input type="radio" name="browser" value="Chrome">Google Chrome<br>
+                <input type="radio" name="browser" value="firefox">Mozilla FireFox<br>
+                <input type="radio" name="browser" value="opera">Opera<br>
+                
+                <label>Choose Your Mobile</label><br>
+                
+                <input type="radio" name="mobile" value="iphone">iphone<br>
+                <input type="radio" name="mobile" value="Samsung">Samsung<br>
+                <input type="radio" name="mobile" value="Nokia">Nokia<br>
+                
+                <br>
+                
+                <label>Your message</label><br>
+                <textarea rows="6" cols="60" readonly>This Note you cann't edit</textarea>
+                
+            
+                <br>
+                
+                <label>Upload Your Cv</label>
+                <input type="file">
+            
+                <br>
+                
+                <input type="checkbox">
+                <label>Remember Me</label>
+            </fieldset>
+               
+               
+            <fieldset>
+                
+                
+                <legend>Send Options</legend>
+                
+                <select name="Time">
+                    <optgroup label="Near Time">
+                        <option value="1">Now</option>
+                        <option value="2">Tomorrow</option>
+                        <option value="3">After A Week</option>
+                    </optgroup>
+                    <optgroup label="Far Time">
+                        <option value="4">Year</option>
+                        <option value="5">10 Year</option>
+                        <option value="6">20 Year</option>
+                    </optgroup>
+                    
+                </select>
+                
+                <input type="button" name="Say Hello" value="Say Hello" onclick="sayHello()">
+                    
+                <input type="submit" value="Signup">
+                    
+                <input type="Reset" value="Resetor Default">
+            </fieldset>
+        </form>
+            
+
+    </body>
+    
+</html>

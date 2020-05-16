@@ -1,0 +1,6 @@
+Button: to send values and function by Javascript
+File: to upload a file from your pc
+Image: to add image to your field
+Hidden: to store and send hidden values
+Reset: to reset other fields 
+Radio: to choose one elements from choices

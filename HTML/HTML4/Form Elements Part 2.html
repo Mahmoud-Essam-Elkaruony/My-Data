@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+    
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Html For Beginners ">
+        <title>Form part 2 Button,File,Image,Hidden,Reset,Radio</title>
+        <link rel="stylesheet" href="style.css">
+        <script>
+            function sayHello()
+            {
+                alert("Hello HTML");
+            }
+        </script>
+        <style>
+
+        </style>
+    </head>
+    <body>
+        <form name="register">
+            
+            <label>Username</label>
+            <input type="text" name="username" maxlength="10">
+            
+            <br>
+                
+            <label>Password</label>
+            <input type="password" name="password">
+            
+            <br>
+                
+            <label>Upload Your Cv</label>
+            <input type="file">
+            
+            <br>
+                
+            <input type="checkbox">
+            <label>Remember Me</label>
+            
+            <br>
+            
+            
+            <label>Choose Your Browser</label><br>
+            
+            <input type="radio" name="browser" value="Chrome">Google Chrome<br>
+            <input type="radio" name="browser" value="firefox">Mozilla FireFox<br>
+            <input type="radio" name="browser" value="opera">Opera<br>
+            
+            <label>Choose Your Mobile</label><br>
+            
+            <input type="radio" name="mobile" value="iphone">iphone<br>
+            <input type="radio" name="mobile" value="Samsung">Samsung<br>
+            <input type="radio" name="mobile" value="Nokia">Nokia<br>
+            
+            
+            <br>
+                
+            <input type="hidden" value="teasting">
+                
+            <input type="button" name="Say Hello" value="Say Hello" onclick="sayHello()">
+                
+            <input type="submit" value="Signup">
+                
+            <input type="Reset" value="Resetor Default">
+                
+            <input type="image" src="http://placehold.it/100/100" alt="Submit">
+        </form>
+            
+
+    </body>
+    
+</html>
