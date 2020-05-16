@@ -1,0 +1,54 @@
+/* You can control of SVG with Css */
+
+circle
+{
+    opacity: .5;
+    stroke:#080;
+    fill:#F00;
+    stroke-width:5;
+        
+}
+
+circle:hover{
+    opacity:1;
+    stroke-width:10;
+    fill:#00F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
