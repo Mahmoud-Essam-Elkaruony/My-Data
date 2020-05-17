@@ -1,0 +1,103 @@
+Function - DOM
+
+   [1] = document.getElementById()
+    [2] = document.getElementsByTagName()
+    [3] = document.getElementsByClassName()
+    [4] = document.querySelectorAll("p.Test")
+    [4] = document.querySelector("p.Test")
+    
+    [5] = document.title
+    [6] = document.images
+    [7] = document.forms
+    [8] = document.body
+    [9] = document.anchors
+    [10] = document.links
+    
+    [11] = textContent
+    [12] = innerHTML
+    [13] = innerText
+    [14] = outerText
+    
+    [15] = setAttribute()
+    [16] = getAttribute()
+    [17] = removeAttribute()
+    [18] = hasAttribute()
+    
+    [19] = classList [ Item, Contains, Length , Add, Remove, Toggle]
+    [20] = className
+    
+    [21] = childElementCount
+    [22] = childNodes
+    [23] = children
+    [24] = firstElementChild
+    [25] = lastElementChild
+    [26] = firstChild
+    [27] = lastChild
+    [28] = document.createElement()
+    [29] = appendChild
+    [30] = document.createTextNode
+    [31] = document.createComment
+    [32] = document.createAttribute()
+    [33] = insertBefore
+    [34] = nodeName
+    [35] = tagName
+    [36] = removeChild()
+    [37] = nodeValue
+    [38] = nodeType
+    [39] = cloneNode(true or false)
+    [40] = parentElement
+    [41] = parentNode
+    [42] = nextElementSibling
+    [43] = nextSibling
+    [44] = previousSibling
+    
+    //No Margin No Border No Scroll
+    [45] = clientWidth
+    [46] = clientHeight
+    
+    //No Margin No border
+    [47] = scrollWidth
+    [48] = scrollHeight
+    
+    //No Margin
+    [49] = offsetWidth
+    [50] = offsetHeight
+    
+    [51] = scrollTop
+    [52] = scrollLeft
+    
+    //Yeas Border And Scroll Bar
+    [53] = clientTop
+    [54] = clientLeft
+    
+    [55] = inputEncoding
+    [56] = lastModified
+    [57] = URL / Uniform Resource Locator
+    
+    //Events
+    [58] = onclick
+    [59] = ondblclick
+    [60] = oncontextmenu
+    [61] = onmouseover
+    [62] = onmouseenter
+    [63] = onmouseout
+    [64] = onmouseleave
+    
+    [65] = onload
+    [66] = onresize
+    
+    [67] = onkeyup
+    [68] = onkeypress
+    [69] = onkeydown
+    
+    [71] = onchange
+    
+    [72] = onfocus
+    [73] = onblur
+    [74] = onsubmit
+    
+    [75] = focus()
+    [76] = blur()
+    [77] = click()
+    [78] = addEventListener
+    [79] = preventDefault()
