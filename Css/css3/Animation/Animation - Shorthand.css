@@ -1,0 +1,155 @@
+/* - Animation - Shorthand */
+
+/*
+
+*/
+
+
+.first {
+    width: 100px;
+    height: 100px;
+    top: 10px;
+    left: 10px;
+    background-color: #F00;
+    position: absolute;        
+    animation: moving 5s ease 0s 1 normal none running;
+    
+    /*
+        Animation: 
+                    [1- Animation Name  = none]
+                    [2- Animation Duration = 0]
+                    [3- Animation Timing Function = ease ]
+                    [4- Animation Delay = 0 ]
+                    [5- Animation Iteration Count = 1]
+                    [6- Animation Direction = normal]
+                    [7- Animation Fill Mode = none]
+                    [8- Animation Play State = running]
+    
+    */
+}
+
+.second {
+    width: 100px;
+    height: 100px;
+    top: 10px;
+    left: 120px;
+    background-color: #00F;
+    position: absolute;
+    animation-name: moving;  
+    animation-duration: 5s;
+    animation-iteration-count: 1;  
+    animation-direction: normal;   
+    animation-delay: 0s ;    
+    animation-fill-mode: none ;  /* Default Value: none */
+    animation-play-state: running; 
+    animation-timing-function: ease-in ;
+}
+
+.third {
+    width: 100px;
+    height: 100px;
+    top: 10px;
+    left: 230px;
+    background-color: #FF0;
+    position: absolute;
+    animation-name: moving;  
+    animation-duration: 5s;
+    animation-iteration-count: 1;  
+    animation-direction: normal;   
+    animation-delay: 0s ;    
+    animation-fill-mode: none ;  /* Default Value: none */
+    animation-play-state: running; 
+    animation-timing-function: ease-out ;
+}
+
+.fourth {
+    width: 100px;
+    height: 100px;
+    top: 10px;
+    left: 340px;
+    background-color: #080;
+    position: absolute;
+    animation-name: moving;  
+    animation-duration: 5s;
+    animation-iteration-count: 1;  
+    animation-direction: normal;   
+    animation-delay: 0s ;    
+    animation-fill-mode: none ;  /* Default Value: none */
+    animation-play-state: running; 
+    animation-timing-function: ease-in-out ;
+}
+
+.fifth {
+    width: 100px;
+    height: 100px;
+    top: 10px;
+    left: 450px;
+    background-color: #F0F;
+    position: absolute;
+    animation-name: moving;  
+    animation-duration: 5s;
+    animation-iteration-count: 1;  
+    animation-direction: normal;   
+    animation-delay: 0s ;    
+    animation-fill-mode: none ;  /* Default Value: none */
+    animation-play-state: running;
+    animation-timing-function: ease ;
+    animation-timing-function: linear ;
+}
+
+@keyframes moving {
+    
+    0% {
+       top: 10px;
+       
+
+    }
+     
+  
+    100% {
+        top: 420px;
+    }
+    
+
+
+
+
+/*
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

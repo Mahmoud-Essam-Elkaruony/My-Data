@@ -1,0 +1,199 @@
+/* Animation - Intro & Keyframes */
+
+
+
+.first {
+    width: 100px;
+    height: 100px;
+    background-color: #F00;
+    position: absolute;
+    animation: moving 3s 6 linear;
+}
+
+.second {
+    width: 100px;
+    height: 100px;
+    background-color: #00F;
+    position: absolute;
+    animation: moving 4s 5 linear;
+}
+
+@keyframes moving {
+    
+    0% {
+       top: 0;
+       left: 0;
+    }
+      
+    25% {
+        top: 0;
+        left: 200px;
+        
+    }
+    
+    50% {
+        top: 200px;
+        left: 200px;
+        background-color: #080;
+        border-radius: 50%;
+            
+    }
+    
+    75% {
+        top: 200px;
+        left: 0;
+    }
+    
+    100% {
+        top: 0;
+        left: 0;
+    }
+    
+}
+
+
+
+
+
+
+/*
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: #F00;
+    animation: coloring 5s 5 linear;
+}
+
+@keyframes coloring {
+    
+    from {
+       background-color: #F00; 
+    }
+      
+    to {
+       background-color: #080; 
+        
+    }
+}
+
+................................................
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: #F00;
+    position: absolute;
+    animation: moving 5s 5 linear;
+}
+
+@keyframes moving {
+    
+    0% {
+       top: 0;
+       left: 0;
+    }
+      
+    25% {
+        top: 0;
+        left: 200px;
+        
+    }
+    
+    50% {
+        top: 200px;
+        left: 200px;
+    }
+    
+    75% {
+        top: 200px;
+        left: 0;
+    }
+    
+    100% {
+        top: 0;
+        left: 0;
+    }
+    
+}
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: #F00;
+    position: absolute;
+    animation: moving 5s 5 linear;
+}
+
+@keyframes moving {
+    
+    0% {
+       top: 0;
+       left: 0;
+    }
+      
+    25% {
+        top: 0;
+        left: 200px;
+        
+    }
+    
+    50% {
+        top: 200px;
+        left: 200px;
+        background-color: #080;
+        border-radius: 50%;
+            
+    }
+    
+    75% {
+        top: 200px;
+        left: 0;
+    }
+    
+    100% {
+        top: 0;
+        left: 0;
+    }
+    
+}
+
+...............................................................
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

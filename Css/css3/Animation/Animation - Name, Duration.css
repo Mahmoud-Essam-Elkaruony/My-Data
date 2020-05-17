@@ -1,0 +1,168 @@
+/* Animation - Intro & Keyframes */
+
+/*
+ Keyframes syntax :
+                    Animation Name ==> Required
+                    From 0% To 100% or
+                    0%, 10% , 20%, 30%, 40% , .....100%
+                    Css Attributes
+*/
+
+
+.first {
+    width: 100px;
+    height: 100px;
+    top: 10px;
+    left: 10px;
+    background-color: #F00;
+    position: absolute;
+    animation-name: moving;  /* Default Value : none*/
+    animation-duration: 5s;
+    
+}
+
+
+
+@keyframes moving {
+    
+    /* IF you have attributes have the same thing  you can but them in the same line*/
+    
+    0% {
+       top: 10px;
+
+    }
+      
+    20% {
+        top: 90px;
+
+        
+    }
+    
+    30% {
+        top: 60px; 
+            
+    }
+    
+    40% {
+        top: 110px;
+    
+    }
+    
+    50% {
+        top 80px;
+    }
+    
+    60% {
+        top 150px;
+    }
+    
+    70% {
+        top 120px;
+    }
+    
+    80% {
+        top 190px;
+    }
+    
+    90% {
+        top 160px;
+    }
+    
+    
+    100% {
+        top: 220px;
+
+    }
+    
+}
+
+
+
+/*
+
+.first {
+    width: 100px;
+    height: 100px;
+    top: 10px;
+    left: 10px;
+    background-color: #F00;
+    position: absolute;
+    animation-name: moving;  /* Default Value : none*
+    animation-duration: 5s;
+    
+}
+
+
+
+@keyframes moving {
+    
+    /* IF you have attributes have the same thing  you can but them in the same line
+    
+    0% {
+       top: 10px;
+       left: 10px;
+    }
+      
+    25% {
+        top: 10px;
+        left: 200px;
+        
+    }
+    
+    50% {
+        top: 200px;
+        left: 200px;
+        
+            
+    }
+    
+    75% {
+        top: 200px;
+        left: 10px;
+    }
+    
+    100% {
+        top: 10px;
+        left: 10px;
+    }
+    
+}
+
+
+..................................
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

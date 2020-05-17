@@ -1,0 +1,152 @@
+/*  Animation - Play State, Timing Function */
+
+/*
+animation-play-state: running;
+animation-play-state: paused;
+/..........................
+
+*/
+
+
+.first {
+    width: 100px;
+    height: 100px;
+    top: 10px;
+    left: 10px;
+    background-color: #F00;
+    position: absolute;
+    animation-name: moving;  
+    animation-duration: 5s;
+    animation-iteration-count: 1;  
+    animation-direction: normal;   
+    animation-delay: 0s ;    
+    animation-fill-mode: normal ;  /* Default Value: none */
+    animation-play-state: running; 
+    animation-timing-function: ease ;    /* Default Value: ease */
+}
+
+.second {
+    width: 100px;
+    height: 100px;
+    top: 10px;
+    left: 120px;
+    background-color: #00F;
+    position: absolute;
+    animation-name: moving;  
+    animation-duration: 5s;
+    animation-iteration-count: 1;  
+    animation-direction: normal;   
+    animation-delay: 0s ;    
+    animation-fill-mode: normal ;  /* Default Value: none */
+    animation-play-state: running; 
+    animation-timing-function: ease-in ;
+}
+
+.third {
+    width: 100px;
+    height: 100px;
+    top: 10px;
+    left: 230px;
+    background-color: #FF0;
+    position: absolute;
+    animation-name: moving;  
+    animation-duration: 5s;
+    animation-iteration-count: 1;  
+    animation-direction: normal;   
+    animation-delay: 0s ;    
+    animation-fill-mode: normal ;  /* Default Value: none */
+    animation-play-state: running; 
+    animation-timing-function: ease-out ;
+}
+
+.fourth {
+    width: 100px;
+    height: 100px;
+    top: 10px;
+    left: 340px;
+    background-color: #080;
+    position: absolute;
+    animation-name: moving;  
+    animation-duration: 5s;
+    animation-iteration-count: 1;  
+    animation-direction: normal;   
+    animation-delay: 0s ;    
+    animation-fill-mode: normal ;  /* Default Value: none */
+    animation-play-state: running; 
+    animation-timing-function: ease-in-out ;
+}
+
+.fifth {
+    width: 100px;
+    height: 100px;
+    top: 10px;
+    left: 450px;
+    background-color: #F0F;
+    position: absolute;
+    animation-name: moving;  
+    animation-duration: 5s;
+    animation-iteration-count: 1;  
+    animation-direction: normal;   
+    animation-delay: 0s ;    
+    animation-fill-mode: normal ;  /* Default Value: none */
+    animation-play-state: running;
+    animation-timing-function: ease ;
+    animation-timing-function: linear ;
+}
+
+@keyframes moving {
+    
+    0% {
+       top: 10px;
+       
+
+    }
+     
+  
+    100% {
+        top: 420px;
+    }
+    
+
+
+
+
+/*
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

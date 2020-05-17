@@ -1,0 +1,134 @@
+/*  Animation - Delay, Fill Mode */
+
+/*
+ animation-delay: 2s ; 
+...............................
+ animation-fill-mode: none ;
+..................................
+animation-fill-mode: forwards ;
+What forwards do ==> end has function and stop in the end 
+....................................
+ animation-fill-mode: backwards ;
+ What backwards do ==> Take has first keyframes and move
+.........................................................
+animation-fill-mode: both ; 
+
+*/
+
+
+.first {
+    width: 100px;
+    height: 100px;
+    top: 10px;
+    left: 10px;
+    background-color: #F00;
+    position: absolute;
+    animation-name: moving;  
+    animation-duration: 5s;
+    animation-iteration-count: 2;  
+    animation-direction: normal;   /* Default Value: normal */
+    animation-delay: 3s ;    /* Default Value: 0 */
+    animation-fill-mode: both ;  /* Default Value: none */
+    
+    
+}
+
+
+
+@keyframes moving {
+    
+
+    
+    0% {
+       top: 100px;
+       background-color: #FF0
+
+    }
+      
+    20% {
+        top: 190px;
+
+        
+    }
+    
+    30% {
+        top: 160px; 
+            
+    }
+    
+    40% {
+        top: 210px;
+    
+    }
+    
+    50% {
+        top 180px;
+    }
+    
+    60% {
+        top 250px;
+    }
+    
+    70% {
+        top 220px;
+    }
+    
+    80% {
+        top 290px;
+    }
+    
+    90% {
+        top 260px;
+    }
+    
+    
+    100% {
+        top: 320px;
+        width: 200px;
+        background-color: #444
+        
+    }
+    
+}
+
+
+
+/*
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
