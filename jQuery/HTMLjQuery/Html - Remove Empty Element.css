@@ -1,0 +1,13 @@
+button
+{
+    margin:10px;
+    padding:5px;
+}
+
+div,.jquery
+{
+    margin:10px;
+    background-color:#CCC;
+    width:300px;
+    height:200px;
+}

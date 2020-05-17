@@ -1,0 +1,15 @@
+
+.custom
+{
+    background:#F00;
+    font-weight:bold;
+    font-size:20px;
+    color:#CCC;
+    width:300px;
+    padding:10px;
+}
+
+.br 
+{
+    border-radius:10px;
+}

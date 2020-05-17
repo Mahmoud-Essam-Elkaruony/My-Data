@@ -1,0 +1,44 @@
+
+/*
+// If you need to remove the border form the page use thoes code 
+
+*
+{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing-:border-box;
+    box-sizing:border-box;
+
+}
+
+*/
+
+
+/*
+.container .left
+{
+    float:left;
+    width:490px;
+    margin-right:10px;
+    background:olive;
+    color:#000;
+}
+
+.container .right
+{
+    float:right;
+    width:300px;
+    background:olive;
+    color:#000;
+}
+
+*/
+
+
+.container
+{
+    width:300px;
+    background:darkgray;
+    height:100px;
+    
+}
+
