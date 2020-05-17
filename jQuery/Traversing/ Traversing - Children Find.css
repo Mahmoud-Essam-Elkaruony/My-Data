@@ -1,0 +1,13 @@
+
+section, div, p, span{
+    padding:10px;
+    border:1px solid #CCC;
+}
+
+p{
+    margin:0
+}
+
+span{
+    display:block;
+}
