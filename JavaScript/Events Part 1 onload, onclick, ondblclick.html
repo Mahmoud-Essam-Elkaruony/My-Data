@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title> Learn JavaScript </title>
+        <script>
+            function changeMeClick() {
+                document.getElementById("test").innerHTML = "You Clicked On The Button";
+            }
+            
+            function changeMeDbClick() {
+                document.getElementById("test").innerHTML = "You Double  Clicked On The button ";
+            }
+
+            /*
+            // This Function meaning When You Done Load Page Do This Function ..
+
+             window.onload = function () {
+                document.getElementById("test").innerHTML = "Text From JavaScript";
+            }
+            
+            */
+        </script>
+    </head>
+
+    <body>
+        <button onclick="changeMeClick()" ondblclick="changeMeDbClick()">Change Me</button>
+        
+        <div id="test">This Is Test</div>
+        <script src="JavaScriptTest.js"></script>    
+    </body>
+
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+

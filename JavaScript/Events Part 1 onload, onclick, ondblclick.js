@@ -1,0 +1,32 @@
+/* onload, onclick, ondblclick */
+
+
+// There Is No lesson Here All Lesson On HTML Page ....
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
