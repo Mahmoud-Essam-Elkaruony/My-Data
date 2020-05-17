@@ -1,0 +1,81 @@
+/*   Flex Basis | Shorthand   */
+
+
+
+.container {
+    width: 700px;
+    height: 500px;
+    margin: 50px auto;
+    background-color: #EEE;
+    display: flex;
+    
+     
+}
+
+.container div {
+    color: #FFF; 
+    padding: 10px;
+    max-height: 100px;
+    width: 150px;
+    
+}
+
+.container .one {
+    background-color: #080;
+}
+
+
+.container .two {
+    background-color: #F00;
+    flex: 0 1 100px;
+    
+    /* flex: flex-Grow | flex-Shrink | flex-Basis  */
+    
+    
+}
+
+.container .three {
+    background-color: #F0F;
+    
+}
+
+
+.container .four{
+    background-color: #00F;
+    
+        
+}
+
+/*
+flex-basis you can use it to defnition space of elemants 
+ 
+flex-basis: 200px;
+flex-basis: 100px;
+flex-basis: auto;
+flex-basis: 50px;
+//////////////////////
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

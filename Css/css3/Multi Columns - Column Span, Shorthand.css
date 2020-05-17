@@ -1,0 +1,37 @@
+/*  Multi Columns - Column Span, Shorthand  */
+
+/* */
+/**/
+
+div {
+    border: 1px solid #CCC;
+    padding: 10px;
+    columns: 200px 4  ;             /* Default Value: auto auto */
+                           /* <Width> <count> */ 
+}
+
+div h2 {
+    column-span: all; /* Default Value: 1 */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

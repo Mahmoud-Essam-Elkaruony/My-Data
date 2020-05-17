@@ -1,0 +1,62 @@
+/* Examples Box Shadow Border Radius */
+
+
+img
+{
+    margin:100px;
+    border-radius:50%;
+    padding:3px;
+    background-color:#FFF;
+    border:1px solid #DDD;
+    box-shadow:5px 6px 6px #a40dec,
+               -5px -6px 6px #a40dec; 
+               
+}
+
+/* You can  do that if you want */
+
+/*img:hover
+{
+    box-shadow:
+               5px 6px 6px #a40dec,
+               -5px -6px 6px #a40dec;
+      border-radius:50%;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

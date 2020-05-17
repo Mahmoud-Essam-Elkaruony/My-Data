@@ -1,0 +1,127 @@
+/* Transition - Timing Function | Delay */
+
+
+/*
+
+  Transition: <property> | <Duration> | <Timing Function> | <Delay>
+
+transition-timing-function: ease; /* Defalut Value : ease 
+ /////////////////////////
+transition-timing-function: steps(4);
+transition-timing-function: steps(4, end);
+transition-timing-function: steps(4,start);
+////////////////////////////////////
+I do not know about this function a lot 
+transition-timing-function: cubic-bezier(.42, 0, .58, 11);
+
+Go to this website to know morre 
+css3 Bezier curve tester
+
+*/
+
+
+div {
+    width: 1000px;
+    
+}
+
+div p {
+    background-color: #F00;
+    margin-bottom: 10px;
+    width: 120px;
+    padding: 10px;
+    transition-property: width, background-color;
+    transition-duration: 3s;
+    transition-timing-function: steps(4);
+    
+}
+
+
+div p:first-of-type {
+    transition-timing-function: cubic-bezier(.42, 0, .58, 11);
+}
+
+
+div p:last-of-type {
+    transition-timing-function: steps(4, end);
+}
+
+div:hover p   {
+    background-color: #00F;
+    width: 220px;
+}
+
+
+
+/*
+
+div p:first-of-type {
+    transition-timing-function: ease; /* start and end slow 
+}
+
+div p:nth-of-type(2) {
+    transition-timing-function: linear /* start and end immediately
+}
+
+div p:nth-of-type(3) {
+    transition-timing-function: ease-in /* start slow and stop immediatly
+}
+
+div p:nth-of-type(4) {
+    transition-timing-function: ease-out /* start immediatly and stop slow
+}
+
+div p:nth-of-type {
+    transition-timing-function: ease-in-out /*start and end slow
+}
+
+div p:hover  {
+    width: 220px;
+}
+
+//////////////////////////////////
+
+div p:first-of-type {
+    transition-delay: 1s;
+}
+
+div p:nth-of-type(2) {
+    transition-delay: 2s;
+}
+
+div p:nth-of-type(3) {
+    transition-delay: 3s;
+}
+
+div p:nth-of-type(4) {
+    transition-delay: 4s;
+}
+
+div p:last-of-type {
+    transition-delay: 5s;
+}
+
+div:hover p   {
+    width: 220px;
+}
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,82 @@
+/* 2D Transform - Translate */
+/* Transform Translate take (X,Y) */
+
+
+* {
+    box-sizing:border-box;
+}
+
+
+
+.container{
+    width:400px;
+    background-color:#EEE;
+    margin:100px auto;
+    padding:10px;
+    border:1px solid #CCC;
+    height:200px;
+    overflow:visible;
+    
+}
+
+.translate {
+    background-color:#0000ff;
+    color:#FFF;
+    text-align:center;
+    height:180px;
+    transition:all 1s ease-in-out;
+}
+
+.translate:hover {
+    transform: translatey(160px) scale(1.1) rotate(20deg) ; 
+}
+
+
+/* 
+ transform: translate(10px,10px);
+ transform: translate(10px,0);
+ transform: translate(40px,0);
+ transform: translate(-40px,40px);
+ transform: translate(-40px,-40px);
+ transform: translatex(-40px);
+ transform:translatex(50px);
+ transform: translatey(-60px); 
+ transform: translatey(-30px) scale(.5) ; 
+ transform: translatey(-100px) scale(.5) ;
+ transform: translatey(-60px) scale(.75) ;
+ transform: translatex(-160px) scale(.75) ;
+ transform: translatex(-160px) scale(.75) rotate(20deg) ;
+ transform: translatey(-160px) scale(1.75) rotate(30deg) ;
+ transform: translatey(160px) scale(1.1) rotate(20deg) ;
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

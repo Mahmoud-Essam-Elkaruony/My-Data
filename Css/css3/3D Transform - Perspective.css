@@ -1,0 +1,70 @@
+/* 3D Transform - Perspectinve 3D */
+
+/* Transform - Perspective */
+/* Transform - Perspective-origin you have to use Perspective-origin with Perspective */
+/* 
+ perspective-origin: (X,Y)
+ perspective-origin: 90% 50%;
+ perspective-origin:left == 0;
+ perspective-origin:center == 50% 50%;
+ perspective-origin:right == 100% ;
+ perspective-origin:bottom;
+*/
+
+
+div {
+    margin: 50px 0 100px;
+}
+
+div:first-of-type {
+    perspective: 500px;
+    perspective-origin: left; 
+}
+
+div:nth-of-type(2) {
+    perspective: 300px;
+    perspective-origin: right;
+}
+
+div:last-of-type {
+    perspective: 200px;
+    perspective-origin:center;
+}
+
+img {
+    
+    display:block;
+    margin: 50px auto;
+    transition: all .5s ease-in-out;
+    transform: translateZ(100px);
+    
+    
+}
+
+
+
+img:hover {
+    
+}
+
+
+/*
+ 
+ 
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,86 @@
+/*  Align Items | Align Content   */
+
+
+
+
+body {
+    direction: ltr;
+}
+
+/*  
+ align-items: stretch;
+ align-items: flex-start;
+ align-items: flex-end;
+ align-items: center;
+ align-items: baseline;
+ ///////////////////////
+ If you need to use align-content you have to use flex-wrap
+ align-content: stretch;
+ align-content: center;
+ align-content: flex-start;
+ align-content: flex-end;
+ align-content: space-between;
+ 
+*/
+
+.container {
+    width: 200px;
+    height: 500px;
+    margin: 50px auto;
+    background-color: #EEE;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    
+    
+    
+}
+
+.container div {
+    background-color: #080;
+    color: #FFF;
+    width: 180px;
+    padding: 10px;
+    max-height: 100px;
+}
+
+.container div:first-of-type {
+    background-color: #080;
+}
+
+
+.container div:nth-of-type(2) {
+    background-color: #00F;
+}
+
+.container div:last-of-type {
+    background-color: #F00;
+}
+
+/*
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

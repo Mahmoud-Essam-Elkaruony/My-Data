@@ -1,0 +1,66 @@
+/* This is important lesson Box Shadow */
+
+div 
+{
+    padding:10px;
+    background:#EEE;
+    border:1px solid #CCC;
+    width:200px;
+    height:200px;
+    margin:20px auto;
+    
+    /* This is attributes of elements */
+    /* You can change value as you want  */
+    /* You should start with Horizontal and  Vertical */ 
+    /* Shadow by default be Outset or inset */
+    /* When You Use This [ - ] it mean shadow left   */
+    box-shadow:
+       Horizontal Shadow = 10px or -10px
+       Vertical Shadow   = 10px or -10px 
+       Blur              = 10px
+       Spread            = 10px
+       color             = #DDD    
+       Shadow Can be Inset or Outset 
+        ;
+    box-shadow: -5px -5px 8px 4px #F00 , 
+               5px 5px 8px 4px #00F ,
+               10px 10px 8px 5px #080 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

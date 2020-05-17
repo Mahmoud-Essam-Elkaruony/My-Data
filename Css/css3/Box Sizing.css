@@ -1,0 +1,72 @@
+/* Box Sizig */ 
+
+/* If you need add border or padding or anything
+without change the size you have to use ( box-sizing:border-box;) */
+ 
+
+
+*
+{
+    box-sizing:border-box;
+}
+
+
+
+section
+{
+    width:940px;
+    margin:20px auto;
+    background:#EEE;
+    overflow:hidden;
+}
+
+.left
+{
+    float:left;
+    width:20%;
+    background-color:#F00;
+    color:#FFF;
+    padding:10px;
+   
+    
+}
+
+.right
+{
+    float:right;
+    width:80%;
+    background-color:#00F;
+    color:#FFF;
+    padding:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

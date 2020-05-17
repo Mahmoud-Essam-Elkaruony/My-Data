@@ -1,0 +1,91 @@
+/* Order | Flex Grow | Flex Shrink   */
+
+
+
+.container {
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    background-color: #EEE;
+    display: flex;
+    
+     
+}
+
+.container div {
+    color: #FFF;
+    padding: 10px;
+    max-height: 100px;
+    width: 150px;
+    flex-shrink: 1;
+}
+
+.container .one {
+    background-color: #080;
+}
+
+
+.container .two {
+    background-color: #F00;
+    
+    
+}
+
+.container .three {
+    background-color: #F0F;
+    flex-shrink: 3;
+}
+
+
+.container .four{
+    background-color: #00F;
+    
+        
+}
+
+/*
+you can use oreder to change position of Div 
+order: 4;
+order: 1;
+order: 3;
+order: 2;
+/////////////////
+flex-grow you use it to add some space for elements from container
+flex-grow: 0;
+flex-grow: 1;
+flex-grow: 2;
+flex-grow: 3;
+flex-grow: 4;
+//////////////////
+ flex-shrink you can use it cut sone space for elemants from container
+ flex-shrink: 1;
+ flex-shrink: 0;
+ flex-shrink: 3;
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

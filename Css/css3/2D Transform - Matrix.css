@@ -1,0 +1,62 @@
+/* 2D Transform - Matrix take 6 value */
+
+/* 
+  transform: matrix(a, b, c, d, x, y);
+  transform: matrix(ScaleX, SkewY, SkewX, ScaleY, TranslateX, TranslateY)
+
+*/
+
+
+img{
+    transition: all .5s ease-in-out;
+   
+}
+
+/* transform: matrix(ScaleX, SkewY, SkewX, ScaleY, TranslateX, TranslateY) */
+
+img:hover {
+    transform: matrix(0.86, 0.5, -0.5, 0.86, 300, 100);
+        
+}
+
+
+/*
+ transform: matrix(1, 0, 0, 1, 300, 80)
+ transform: matrix(-1, 0, 0, 1, 0, 0)
+ transform: matrix(0.86, 0.5, -0.5, 0.86, 300, 100);
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

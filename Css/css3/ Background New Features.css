@@ -1,0 +1,67 @@
+/* Background New Features */ 
+
+
+div {
+    width: 604px;
+    height: 340px;
+    color: #FFF;
+    border: 10px dotted #00F;
+    background: url('Car.jpeg');
+    background-origin: content-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center; 
+
+    
+     
+    
+    
+    
+   
+   
+}
+
+
+
+
+
+
+/*
+ New background
+
+ background-size:auto auto;
+ background-size:100% 50%; == width height
+ background-size:400px 300px;
+ background-size:contain;
+ background-size:cover;
+
+ New background
+ 
+ background-clip: padding-box;
+ background-clip: border-box;
+ background-clip: content-box;
+
+ New background
+ 
+ background-origin: border-box;
+ background-origin: padding-box;
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

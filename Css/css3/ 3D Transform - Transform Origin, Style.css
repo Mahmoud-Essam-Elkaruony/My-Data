@@ -1,0 +1,97 @@
+/*  3D Transform - Transform Style */
+
+
+body {
+    perspective: 500px;
+}
+
+
+.father {
+    width:300px;
+    height:300px;
+    margin:50px auto;
+    position:relative;
+    background-color:#080;
+    transition: all .5s ease-in-out;
+    transform:rotateY(20deg);
+    transform-style:preserve-3d;
+}
+
+.child1 {
+    width:300px;
+    height:300px;
+    position:absolute;
+    left:30px;
+    top:30px;
+    background-color:#F00;
+   transform: translateZ(50px) rotateY(45deg);
+        
+}
+
+.child2 {
+    width:300px;
+    height:300px;
+    position:absolute;
+    left:30px;
+    top:30px;
+    background-color:#00F;
+    transform: translateZ(150px) rotateX(45deg);
+}
+
+
+
+
+/*
+ 
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

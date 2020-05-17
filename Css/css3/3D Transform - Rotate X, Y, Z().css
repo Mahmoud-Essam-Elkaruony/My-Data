@@ -1,0 +1,51 @@
+/* 3D Transform - Rotate X, Y, Z() */
+
+
+
+img {
+    transition: all .5s ease-in-out;
+    margin:100px;
+}
+
+
+img:hover {
+    transform: rotateZ(180deg);
+    
+    
+}
+
+
+/*
+
+ transform: rotateX(50deg);
+ transform: rotateY(70deg); 
+ transform:rotateX(-180deg);
+ transform:rotateY(-180deg);
+ transform: rotateY(90deg);
+ transform: rotateZ(90deg);
+ transform: rotateZ(180deg); 
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

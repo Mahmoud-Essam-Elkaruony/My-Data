@@ -1,0 +1,9 @@
+/* What's Vendor Prefixes */
+/* This things just to kwon you may need to use or not  */
+
+box-shadow
+
+-webkit-box-shadow; // Google Chrome, Safari,IOS,Android
+-moz-box-shadow; //Firefox
+-o-box-shadow; // Opera
+-ms-box-shadow; // Inernet Explorer

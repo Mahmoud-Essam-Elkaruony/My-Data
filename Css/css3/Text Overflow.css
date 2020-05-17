@@ -1,0 +1,50 @@
+/* Text Overflowe */
+
+
+div{
+    background-color:#EEE;
+    padding:10px;
+    border:1px solid #000;
+    font-family:Arial, Tahoma;
+    width:300px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+/* 
+div {
+  text-overflow:clip 
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

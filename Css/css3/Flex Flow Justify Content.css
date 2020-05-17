@@ -1,0 +1,77 @@
+/*   Flex Flow | Justify Content */
+
+/* flex-flow: row nowrap; == flex-direction:row / flex-wrap:wrap-reverse */
+
+
+
+body {
+    direction: ltr;
+}
+
+
+.container {
+    width: 800px;
+    margin: 50px auto;
+    background-color: #EEE;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+  
+    
+    
+}
+
+.container div {
+    background-color: #080;
+    color: #FFF;
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+}
+
+.container div:first-of-type {
+    background-color: #080;
+}
+
+
+.container div:nth-of-type(2) {
+    background-color: #00F;
+}
+
+.container div:last-of-type {
+    background-color: #F00;
+}
+
+/*
+
+ flex-flow: row nowrap;
+
+ justify-content: center;
+ justify-content: flex-start;
+ justify-content: flex-end; 
+ justify-content: space-between;
+ justify-content: space-around;
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

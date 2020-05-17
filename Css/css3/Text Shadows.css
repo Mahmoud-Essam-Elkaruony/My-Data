@@ -1,0 +1,61 @@
+/* Text Shadows  */
+
+/* 
+  Syntax of text shadow 
+  
+   Horizontal-Shadow , Vertical-Shadow, Blur-Radius , Color
+*/ 
+
+
+h1 {
+    text-align:center;
+    margin:50px;
+    font-family:Arial, Tahoma;
+    text-shadow:15px 13px 5px #ff0707,
+                26px 25px 5px #b9bbcc;
+}
+
+
+/*h1{
+    text-shadow:none;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

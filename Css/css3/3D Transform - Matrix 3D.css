@@ -1,0 +1,53 @@
+/* 3D Transform - Matrix 3D */
+
+/* Transform - Matrix take 16 value (x, y, z) */
+
+
+
+body {
+    perspective: 600px;
+}
+
+
+
+img {
+    
+    display:block;
+    margin: 50px auto;
+   
+    transition: all .5s ease-in-out;
+    
+}
+
+/* transform: matrix3d(ScaleX,0,0,0,0,ScaleY,0,0,0,0,0,0,TranslateX,TranslateY,ScaleZ,0)  */
+
+img:hover {
+    transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,200,300,-100,1) ;
+}
+
+
+/*
+ 
+ transform: matrix3d(2,0,0.00,0,0.00,2,0.00,0,0,0,1,0,0,0,0,1);
+ transform: matrix3d(2,0,0.00,0,0.00,2,0.00,0,0,0,1,0,0,0,200,1)
+ transform: matrix3d(2,0,0,0,0,2,0,0,0,0,1,0,0,0,200,1)
+ transform: matrix3d(1,0,0.00,0,0.00,0.5,0.87,0,0,-0.87,0.5,0,0,0,0,1);
+ transform:matrix3d(2,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1) ;
+ transform: matrix3d(2,0,0,0,0,1,0,0,0,0,1,0,0,0,300,1) ;
+ transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,200,0,-100,1) ;
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+

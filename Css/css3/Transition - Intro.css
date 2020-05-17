@@ -1,0 +1,47 @@
+/* Transition - Intro */
+
+
+/*
+Transition: <property> | <Duration> | <Timing Function> | <Delay>
+
+< When you need to use the Transition you should write <property> and  <Duration>  >
+        
+transition: width .5s;
+transition: width 1.5s;
+transition: width 1.5s , background-color 2.5s ;
+*/
+
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: #F00;
+    transition: width 1.5s , background-color 3.5s ;
+}
+
+
+div:hover {
+    width: 200px;
+    background-color: #00F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

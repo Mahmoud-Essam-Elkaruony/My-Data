@@ -1,0 +1,92 @@
+/* Font Face */
+
+/*
+    This lesson just to learn you how to use fonts from outside like this webside.
+    And learn you what is fonts safe on all Pc and phone .
+
+    If you need to get fonts from google you. You should do that ?
+    1-- put URl in head in HTML...
+    2-- put the neam of this fonts in Css like this ...
+
+    div {
+    font-family: 'Coiny', cursive;
+
+
+
+
+
+    https://websitesetup.org/web-safe-fonts-html-css/
+
+    https://fonts.google.com
+
+    https://www.w3schools.com/cssref/css_websafe_fonts.asp
+
+    https://www.cssfontstack.com
+
+    This webside 
+
+    https://www.fontsquirrel.com/tools/webfont-generator
+
+
+    This is many kind of fonts 
+
+    TTF: True Type Font
+    OTF: Open Type Font 
+    WOFF: Web Open font
+    WOFF2: Web Open Font 2
+    SVG: Scalable Vector Graphic
+    EOT: Embedded type font
+
+     
+*/
+
+div {
+    font-family: 'Miss Fajardose', cursive;
+
+}
+
+/* If you need to create new fonts with your self this code  */
+/* This code just test */
+
+@font-face {
+    font-family: MahmoudEsam;
+    src: put nema of file and url('fonts/MahmoudEsam.ttf');
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,55 @@
+/* Border Radius */
+
+
+div
+{
+    width:200px;
+    height:200px;
+    background-color:#00F;
+    margin:20px auto;
+    text-align:center;
+    color:#F00;
+    
+    border-top-left-radius:10px;
+    border-top-right-radius:100px;
+    border-bottom-left-radius:100px;
+    border-bottom-right-radius:40px;
+    
+/* border-radius:10px 100px 40px 100px; */
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

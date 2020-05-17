@@ -1,0 +1,146 @@
+/* Media Queries */
+
+/*
+    This is important lessne 
+    
+   This is a yuosfull website about this topick .
+
+   If you need to some informtion about this topick you can search with this 
+   Title on google  (Media Queries for Standard Devices) 
+
+
+    http://screensiz.es/phone
+   
+    http://stackoverflow.com/questions/16...
+
+    https://css-tricks.com/snippets/css/m...
+
+    https://scotch.io/quick-tips/default-...
+
+    https://responsivedesign.is/develop/b...
+
+    https://gist.github.com/hs0ucy/3762901
+
+    ......................................................
+    
+    This is codes about medai
+
+    @media (max-width: 500px) {
+
+    div {
+        float: none;
+        background-color: #F00;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+  } 
+
+  This is code on other heand .
+  
+  @media (min-width: 500px) {
+
+    div {
+        float: none;
+        background-color: #F00;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+ }
+
+ 
+  @media (min-width: 1000px) and (max-width: 1200px) {
+
+    div {
+        float: none;
+        background-color: #F00;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    
+ }
+
+
+
+*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+
+
+
+
+div {
+    width: 30%;
+    background-color: #00F;
+    color: #FFF;
+    padding: 10px;
+    font-size: 22px;
+    float: left;
+    margin-left: 1%;
+}
+
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+
+    div {
+        float: none;
+        background-color: #F00;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    
+}
+
+
+
+/*
+@media (min-width: 501px) {
+
+   
+
+    .small {
+        display: none;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

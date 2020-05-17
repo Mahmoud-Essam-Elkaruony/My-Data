@@ -1,0 +1,72 @@
+/*  Flex Direction | Flex Wrap */
+
+
+body {
+    direction: ltr;
+}
+
+
+.container {
+    width: 800px;
+    margin: 50px auto;
+    background-color: #EEE;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    
+    
+}
+
+.container div {
+    background-color: #080;
+    color: #FFF;
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+/*
+
+ If you need put div beside you can use this code 
+ display: inline-flex;
+
+ flex-direction: row;
+ flex-direction: row-reverse;
+ flex-direction: column;
+ flex-direction: column-reverse;
+
+ flex-wrap: nowrap;
+ flex-wrap: wrap;
+ flex-wrap: wrap-reverse;
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

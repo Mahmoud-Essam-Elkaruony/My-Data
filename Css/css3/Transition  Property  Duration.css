@@ -1,0 +1,50 @@
+/* Transition - Property | Duration */
+
+
+/*
+Transition: <property> | <Duration> | <Timing Function> | <Delay>
+
+  transition-property: width , background-color;      
+  transition-duration: 2s ; 
+  transition-duration: 4000ms
+  transition-duration: 2s , 10000ms
+  transition-duration: 2s , 10s ;
+  transition-duration: 10s , 2s ;
+  
+*/
+
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: #F00;
+    transition-property: width , background-color;  /* Default Value : all | all == all property | none*/
+    transition-duration: 10s , 2s ;        /* Default Value: 0s */                    
+}
+
+
+div:hover {
+    width: 200px;
+    background-color: #00F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
