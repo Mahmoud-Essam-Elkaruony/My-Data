@@ -1,0 +1,15 @@
+
+div {
+    padding:10px;
+    width:300px;
+    display:inline-block;
+    font-family:Tahoma, Arial
+}
+
+input[type="text"] {
+    width:100%;
+}
+
+div span {
+    display:none;
+}
