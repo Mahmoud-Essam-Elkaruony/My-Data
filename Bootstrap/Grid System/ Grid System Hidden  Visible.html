@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8"/>
+        <!--IE Compatibilty Meta-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--First Mobile Meta-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>BootStrap</title>
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+        <link rel="stylesheet" href="css/style-Bootstrap.css"/>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+        <style></style>
+
+    </head>
+
+    <body>
+
+        <!--
+
+            <div class="container-fluid">
+                This is fixed container
+            </div>
+
+
+        -->
+
+        <div class="container">
+
+            <div class="row">
+
+                <!-- 4 Product in large screen   12/3=4  => It will print 4 element-->
+                <!-- 3 Product in medium screen  12/4=3  => It will print 3 element-->
+                <!-- 2 Product in small screen   12/6=2  => It will print 2 element-->
+                <!-- 1 Product in mobile screen  12/12=1 => It will print 4 element-->
+
+                <!--
+
+                    hidden-md = This code will hidden the element in the medium sceen.
+                    hidden-sm = This code will hidden the element in the small sceen.
+                    hidden-xs = This code will hidden the element in the Extra small sceen.
+                    hidden-lg = This code will hidden the element in the large sceen.
+
+                    -----------------------------------------------------------------------
+
+                    visible-md-block = This code will hidden the element in the large screen.
+                -->
+
+
+                <div class="col-lg-6 col-xs-12 hidden-lg">
+                    <div class="os">
+                        This div will be hidden in the large
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-xs-12 visible-md-block">
+                    <div class="new">
+                        This div will be appear in medium screen
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-xs-12">
+
+                    <div class="os">
+                        Product #1
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6 col-xs-12">
+
+                    <div class="os">
+                         Product #2
+                    </div>
+    
+                </div>
+
+                <div class="col-lg-6 col-xs-12">
+
+                    <div class="os">
+                        Product #3
+                    </div>
+
+                </div>
+                            
+                <div class="col-lg-6 col-xs-12">
+
+                     <div class="os">
+                          Product #4
+                    </div>
+    
+                </div>
+    
+
+                <div class="col-lg-6 col-xs-12">
+
+                    <div class="os">
+                        Product #5
+                    </div>
+    
+                </div>
+    
+                <div class="col-lg-6 col-xs-12">
+    
+                    <div class="os">
+                         Product #6
+                     </div>
+        
+                </div>
+    
+                <div class="col-lg-6 col-xs-12">
+    
+                    <div class="os">
+                        Product #7
+                    </div>
+    
+                </div>
+                                
+                    <div class="col-lg-6 col-xs-12 hidden-sm">
+    
+                    <div class="os">
+                        This div will hide in the small screen.
+                    </div>
+        
+                </div>
+
+                <div class="warning visible-sm-block">
+                    Your screen is too small
+                </div>
+        
+            </div>
+
+        </div>
+
+
+
+
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="Bootstrap-Js.js"></script>
+    </body>
+
+
+
+</html>

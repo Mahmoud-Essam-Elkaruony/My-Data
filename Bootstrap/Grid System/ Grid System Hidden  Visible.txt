@@ -1,0 +1,20 @@
+About Screens
+
+1- Large Screens        = lg
+2- Medium Screens       = md
+3- Small Screen         = sm
+4- Extra small Screen   = xs
+
+
+[ col-lg-4 ]
+
+- The grit syetem component with 12 unit:
+- col = column
+- lg  = large screen
+- 4   = The unmber of unit 
+
+- Visible = show
+- Hidden  = Hide
+
+- Hidden-(screen-name) = hidden-lg
+- Visible(screen-name)-(block or inline or inline-block ) = visible-md-bock
