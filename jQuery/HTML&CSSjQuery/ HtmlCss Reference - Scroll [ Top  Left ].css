@@ -1,0 +1,15 @@
+
+body {
+    height:4000px;
+}
+
+div {
+    height: 600px;
+    background-color: #1877f2;
+    color:#FFF;
+    margin-bottom: 20px;
+}
+
+.test {
+    opacity: 0;
+}
