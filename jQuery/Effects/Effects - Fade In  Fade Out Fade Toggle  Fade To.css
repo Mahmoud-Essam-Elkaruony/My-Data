@@ -1,0 +1,23 @@
+
+/*
+p {
+    display:none;
+}
+
+*/
+
+div{
+    margin:10px;
+    background:#EEE;
+    border:1px solid #CCC;
+    padding:10px;
+
+}
+
+button{
+    margin:10px;
+}
+
+span{
+    display:none;
+}

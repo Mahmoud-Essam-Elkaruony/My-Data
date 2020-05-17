@@ -1,0 +1,26 @@
+
+/*
+span{
+    display:none;
+}
+
+*/
+
+
+div {
+    position:absolute;
+    width:60px;
+    height:60px;
+    float:left;
+    
+}
+
+.first {
+    background-color:#3F3;
+    left:0;
+}
+
+.second {
+    background-color:#33F;
+    left:80px;
+}
