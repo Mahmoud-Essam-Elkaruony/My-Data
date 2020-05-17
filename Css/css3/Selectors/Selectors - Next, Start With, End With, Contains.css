@@ -1,0 +1,60 @@
+/* Selectors - Next, Start With, End With, Contains  */
+
+
+/*
+Selectors => [ ~ | ^ | $ | * ]
+
+~ == Next or After
+^ == start with 
+$ == End with 
+* == Select all
+
+ ~ = choose befor or after element but it is  important sheer  in the same parent 
+ like this p ~ span all of thih span will change 
+..............................
+
+^ => Saerch about any attributes start with any character like [ we rt ty ma mou ]
+ and  you want  to  change
+[Attribute ^= Value] like this  [class^="osama"] and you can Saerch with one 
+character like this [class^="o"]
+[class^="osama"] {
+    color: #F00;
+}
+
+..............................
+
+$ => Search about any attributes end with any character like [ty er we cd x ] 
+[class$="x"] {
+    color: #F00;
+}
+
+* => it is meaning choose all everythin 
+*/
+
+
+div {
+    border: 1px solid #CCC;
+}
+
+[class*="x"] {
+    color: #F00;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

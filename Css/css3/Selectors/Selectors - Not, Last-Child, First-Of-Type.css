@@ -1,0 +1,81 @@
+/* Selectors - Not, Last-Child, First-Of-Type  */ 
+
+/*
+ How to write Not 
+ :not(Selecktor) {
+ }
+ section :not( p ) {
+         color: #F00
+ }
+ section :not( div ) {
+         color: #F00
+ }
+ 
+ section :not( .test ) {
+         color: #F00
+ }
+ 
+ section :not( :first-child ) {
+         color: #00F
+ }
+ ............................................
+
+ section :last-child {
+      color: #F00;
+ }
+ ............................................
+ 
+ section div:first-of-type {
+   color: #F00;
+ }
+ 
+ section p:first-of-type {
+   color: #F00;
+ }
+ .........................................
+ section p:last-of-type {
+   color: #00F;
+ }
+
+
+*/
+
+section p:last-of-type {
+   color: #00F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

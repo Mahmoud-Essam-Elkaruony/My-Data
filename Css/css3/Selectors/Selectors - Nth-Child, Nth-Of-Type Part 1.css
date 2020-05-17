@@ -1,0 +1,90 @@
+/* Selectors - Nth-Child, Nth-Of-Type Part 1 */
+
+
+/*
+    What is Nth ?
+                Nth ==> Number and th [1st, 2nd, 3rd, 4th, 5th]
+                Nth take ==> (Number, Formula, Keyword)
+    This Is code : 
+            div:nth-child(2) {  you can put any unmber you want here .
+                            color: #00F;
+                            font-weight: bold;
+                         }
+    ................................... 
+    We can use (even or odd )  on nth-chlid or nth-of-type
+    
+    What it is (odd) ?
+
+    odd choose first index and leave after .
+
+    div:nth-child(odd) {
+    background-color: #EEE;
+  ...................................      
+
+
+    What it is (even) ?
+
+    even on other hand choose second and leave after.
+
+    div:nth-child(even) {
+    background-color: #EEE;
+
+  ...........................................      
+
+    div:nth-last-of-type(2) {
+    background-color: #EEE;
+
+
+
+
+
+*/
+
+div,p {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #CCC;
+    margin: 0;
+}
+
+div:nth-last-of-type(even) {
+    background-color: #EEE;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

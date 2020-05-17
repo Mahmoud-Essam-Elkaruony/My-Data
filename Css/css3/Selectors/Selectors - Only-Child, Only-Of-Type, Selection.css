@@ -1,0 +1,57 @@
+/* Selectors - Only-Child, Only-Of-Type, Selection */
+
+/*
+
+ p:only-child {
+   color: #F00;
+ }
+ .......................................
+ 
+ p:only-of-type {
+   color: #F00;
+ }
+
+ ....................................................
+
+
+*/
+
+
+section {
+   border: 1px solid #CCC;
+   margin: 10px;
+}
+
+::selection {
+   background-color: #333;
+   color: #FFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

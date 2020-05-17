@@ -1,0 +1,122 @@
+/* Selectors - Nth-Child, Nth-Of-Type Part 2 */
+
+
+/*
+    n+5 ==> select unmber 5 and all of it .
+    And you can choose any number you need.
+    This code going with (nth-child & nth-of-type).
+
+
+    div:nth-child(n+5) {
+    background-color: #DDD;
+    
+    div:nth-child(n+2) {
+    background-color: #DDD;
+
+    div:nth-child(n+3) {
+    background-color: #DDD;
+
+    div:nth-of-type(n+6) {
+    background-color: #DDD;
+
+    
+    div:nth-last-child(n+5) {
+    background-color: #DDD;
+
+    div:nth-last-of-type(n+3) {
+    background-color: #DDD;
+
+  .....................................................
+
+  -n+4 ==> select unmber 4 and all up it 
+
+
+  div:nth-child(-n+4) {
+    background-color: #DDD;
+
+ .....................................................
+  
+   This is formula of this topic. 
+ 
+   2n+1 ==> 2*n+1 / it meaning 2*number of line + 1 start from [0]
+   
+    2*n+1 :
+        2*0 = 0 + 1 = [1]
+        2*1 = 2 + 1 = [3]
+        2*2 = 4 + 1 = [5]
+        2*3 = 6 + 1 = [7]
+        2*4 = 8 + 1 = [9]
+    
+    3*n+1 :
+        3*0 = 0 + 1 = [1]
+        3*1 = 3 + 1 = [4]
+        3*2 = 6 + 1 = [7]
+        3*3 = 9 + 1 = [10]
+        3*4 = 12 + 1 = [12]
+
+   
+    div:nth-child(3n+1) {
+    background-color: #DDD;
+    
+    div:nth-last-child(4n+1) {
+    background-color: #DDD;
+
+
+*/
+
+div {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #CCC;
+    margin: 0;
+}
+
+div:nth-child(n+4):nth-child(-n+8) {
+    background-color: #DDD;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
