@@ -1,0 +1,10 @@
+div{
+    width:200px;
+    height:100px;
+    background:#DDD;
+    margin:10px 0;
+}
+
+.hide{
+    display:none;
+}
