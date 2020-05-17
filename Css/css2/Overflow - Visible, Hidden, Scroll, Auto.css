@@ -1,0 +1,42 @@
+/* Overflow - Visible, Hidden, Scroll, Auto [ Css 2 ] */
+
+
+div
+{
+    width:120px;
+    height:100px;
+    background:#DDD;
+    padding:10px;
+    overflow:auto; /*Overflow take this valuo  Visible, Hidden, Scroll, Auto */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

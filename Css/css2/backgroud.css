@@ -1,0 +1,31 @@
+
+/* This instance important for me */
+
+div{
+  
+    height:500px;
+    width:500px;
+    background-image:url('../Css/images/B7Bk.jpg');
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    border:1px solid #000;
+    background-position:0% 0%;
+       
+    /* This is short code */
+    
+    background:#0000FF url('../Css/images/B7Bk.jpg') no-repeat scroll 10% 40%
+       
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

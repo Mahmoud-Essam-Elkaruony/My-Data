@@ -1,0 +1,82 @@
+body{
+    direction:rtl
+}
+
+
+
+
+div{
+    /*Div Properties */
+    width:300px;
+    background:#DDD;
+    margin:10px 0;
+    padding:10px;
+    
+    /*Text Properties */
+    
+    color:#00F; /*Color*/
+    letter-spacing:normal; /*Space Between Letters*/
+    line-height:30px; /* Line Height */
+    text-align:left; /* Align Of This Text */
+    direction:ltr;
+}
+
+div.ar{
+    direction:rtl; /*Text Direction*/
+    text-align:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

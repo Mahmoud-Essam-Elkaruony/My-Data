@@ -1,0 +1,38 @@
+/* Content - How to Add it to Elements [ Css 2 ] */
+
+div:after
+{
+    content:"Hello I'm Here From Css";
+    color:#00F;
+}
+
+div
+{
+    color:#F00;
+}
+
+div:before
+{
+    content:"I'm Very Happy For Learn CSS2";
+    color:#080;
+    font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

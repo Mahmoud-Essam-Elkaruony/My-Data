@@ -1,0 +1,47 @@
+/* This Important lesson  (( Selectors part 1 )) */
+
+
+.parent
+{
+    background:#00F;
+    color:#FFF;
+    padding:10px;
+}
+
+
+.parent > div /* This selectors it is Direct Child */
+{
+    background:#F00;
+    color:#FFF;
+    margin:10px;
+    padding:10px;
+}
+
+.parent aside p
+{
+    background:#080;
+    color:#FFF;
+    margin:10px;
+    padding:10px;
+}
+
+.parent aside
+{
+    background:#000;
+    color:#FFF;
+    margin:10px;
+    padding:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

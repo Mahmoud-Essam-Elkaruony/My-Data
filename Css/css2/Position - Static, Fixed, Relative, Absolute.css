@@ -1,0 +1,101 @@
+/* This is important for css Position - Static, Fixed, Relative, Absolute*/
+
+
+body
+{
+    height:3000px;
+    background:#DDD;
+}
+
+.parent
+{
+    width:940px;
+    background:#FFF;
+    padding:10px;
+    height:600px;
+    /* position:relative */             
+}
+
+.child
+{
+    width:600px;
+    height:400px;
+    padding:10px;
+    background:#EFEFEF;
+    position:relative;  /* This Position relative  for Position absolute */
+}
+
+
+
+.abs
+{
+    background:#F00;  /* If you want  to change place of anything or div  */
+    color:#FFF;          /* One use position:absolute And two position:absolute */    
+    padding:10px;
+    position:absolute;
+    top:10px;
+    right:10px;
+}
+
+
+
+
+/* This is about what is fixed and how to ues  */
+
+/*.fixed
+{
+    background:#080;
+    color:#FFF;
+    padding:10px;
+    position:fixed;
+    top:100px;
+    right:20%;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

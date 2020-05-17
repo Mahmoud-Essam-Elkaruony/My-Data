@@ -1,0 +1,83 @@
+/* Css Coures => Dimensions (Width / Height) */
+
+
+.height
+{
+    background:#DDD;
+    width:200px;
+    min-height:200;
+    max-height:400;
+       
+}
+
+
+
+
+
+
+
+/*
+.width
+{
+    background:#DDD;
+    width:600px;
+    
+}
+
+.child
+{
+    background:#00F;
+    min-width:10px;
+    max-width:400px;
+   
+} */
+
+/* You can control of Div with (min-width,max-width,min-heigh,max-height) */
+
+/*
+div
+{
+    background:#00F;
+    min-width:10px;
+    max-width:300px;
+    min-height:200px;
+    max-height:250px;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

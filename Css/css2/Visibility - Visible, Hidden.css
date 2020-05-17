@@ -1,0 +1,37 @@
+/*  Visibility - Visible, Hidden [ Css 2 ] */ 
+/* There is difference between * display:none and visibility:hidden  */
+
+div
+{
+    width:300px;
+    background:#DDD;
+    padding:10px;
+    margin:10px;
+    float:left;
+}
+
+.visible
+{
+    visibility:hidden; 
+    
+   /* display:none; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

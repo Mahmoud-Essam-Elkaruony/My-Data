@@ -1,0 +1,44 @@
+/* Pseudo Classes */
+
+
+
+div p:first-child span:first-child
+{
+    color:#F00;
+}
+
+
+
+/*p:first-letter
+{
+    font-size:40px;
+    font-weight:bold;
+    color:#FFF;
+    background:#F00;
+    display:block;
+    margin:0px 10px 0 0;
+    padding:0px 5px;
+    border-radius:10px;
+}
+
+
+p:first-line
+{
+    color:#080;
+    font-weight:bold;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

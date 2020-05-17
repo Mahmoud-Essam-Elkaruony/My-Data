@@ -1,0 +1,73 @@
+/* - Z index - Auto, Number [ Css 2 ]  */
+
+/* You have to use position:absolute when you go to use z-index like you see */
+
+
+.div1
+{
+    background:#F00;
+    color:#FFF;
+    padding:10px;
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+    
+}
+
+
+.div2
+{
+    background:#00F;
+    color:#FFF;
+    padding:10px;
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:20px;
+    left:20px;
+    z-index:3;
+}
+
+.div3
+{
+    background:#080;
+    color:#FFF;
+    padding:10px;
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:40px;
+    left:40px;
+    z-index:2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

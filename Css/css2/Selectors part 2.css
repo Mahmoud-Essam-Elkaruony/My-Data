@@ -1,0 +1,43 @@
+/* This Important lesson  (( Selectors part 2 )) */
+
+
+
+p ~ div /* This selectors ( ~ ==  Next All  ) */
+{
+    background:#F00;
+    color:#FFF;
+    padding:10px;
+}
+
+
+
+
+
+
+/* p + div / This selectors ( + == Just Next )
+{
+    background:#F00;
+    color:#FFF;
+    padding:10px;
+} */
+
+
+
+/* * 
+
+{
+    border:1px solid #F00 
+}
+   /* This (*) selector everything 
+
+*/
+                             
+
+
+
+
+
+
+
+
+

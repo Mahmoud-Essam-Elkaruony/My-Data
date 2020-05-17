@@ -1,0 +1,99 @@
+/* Attributes */
+
+
+a[href="http://www.google.com"]
+{
+    color:#080;
+}
+
+a[target="_blank"]
+{
+    color:#000;
+}
+
+a[title="Testing"]
+{
+    color:#F00;
+    
+}
+
+
+img[title="Image 1"]
+{
+    border:5px solid #000;
+}
+
+img[title="Image 2"]
+{
+    border-radius:10px;
+}
+
+input 
+{
+    display:block;
+    margin:10px 0;
+    padding:5px;
+}
+
+input[type="search"]
+{
+    color:#00F;
+}
+
+input[type="text"]
+{
+    color:#080;
+}
+
+input[name="password"]
+{
+    color:brown;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

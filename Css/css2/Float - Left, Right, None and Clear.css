@@ -1,0 +1,54 @@
+/* Float - Left, Right, None and Clear */
+
+
+
+
+.left
+{
+    width:300px;
+    background:#00F;
+    color:#FFF;
+    padding:10px;
+    float:left;
+    margin:10px;
+}
+
+/* You have to use clear after  use float */
+
+.clear
+{
+    clear:both;
+}
+
+.right
+{
+    float:right;
+}
+
+
+.h
+{
+    float:right;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

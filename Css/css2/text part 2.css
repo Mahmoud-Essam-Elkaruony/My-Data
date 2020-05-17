@@ -1,0 +1,111 @@
+
+
+div{
+    /*Div Properties */
+    width:300px;
+    background:#DDD;
+    margin:10px 0;
+    padding:10px;
+    
+    /*Text Properties */
+    
+    color:#00F; /*Color*/
+    letter-spacing:normal; /*Space Between Letters*/
+    line-height:30px; /* Line Height */
+    text-align:left; /* Align Of This Text */
+    direction:ltr; /* Direction Of This Text */
+    text-indent:10%; /* OR 20px */
+    white-space:normal; /* nowrap*/
+    
+    
+}
+
+a{ /* It is google link*/
+    text-decoration:overline;
+}
+
+a:hover{ /* It is google link */
+    text-decoration:underline;
+}
+
+div span{
+    color:#F00;
+    text-decoration:line-through;
+}
+
+span.old{
+    text-decoration:line-through;
+    color:#F00;
+}
+
+span.new{
+    color:#00F;
+}
+
+span.cap{
+    text-transform:capitalize;
+    color:blue;
+}
+
+span.upper{
+    text-transform:uppercase;
+    color:green;
+}
+
+span.lower{
+    text-transform:lowercase;
+    color:orangered;
+    background:#DDD;
+    word-spacing:20px;
+    letter-spacing:-2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
