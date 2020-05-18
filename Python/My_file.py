@@ -1,0 +1,16 @@
+# This is code about how to Create file with pythoe >>>
+# out=open("test.txt","w") # here how to open the file
+# If you need append thing in the file you have to put (a) in this code
+# out=open("test.txt","a") till you can append anything >>>>>
+
+def main():
+    out=open("test.txt","a") # here how to append thing in the file ...
+    out.write("\n name:ahmed") # here how to write in file ...
+    out.write("\n name:dema")
+    out.close() # here how to close the file and you have to close the file when you finish ..
+    readFile=open("test.txt","r") # This is code for read what in the code ...
+    for line in readFile: # this loop it is read what in the code ...
+        print(line)
+    readFile.close() # you have to close the file when you finish ....
+
+if __name__ == '__main__':main()
